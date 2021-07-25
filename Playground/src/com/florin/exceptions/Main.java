@@ -14,7 +14,7 @@ public class Main {
 //		System.out.println(divideEAFP(x, y));
 //		System.out.println(divide(x, y));
 		System.out.println("n = " + n);
-		
+
 	}
 
 	public static int divideLBYL(int x, int y) {
@@ -48,7 +48,6 @@ public class Main {
 				break;
 			}
 		}
-		
 		if (isValid) {
 			return Integer.parseInt(input);
 		}
