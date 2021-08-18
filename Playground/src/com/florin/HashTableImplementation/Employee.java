@@ -1,4 +1,4 @@
-package com.florin.dataStructures;
+package com.florin.HashTableImplementation;
 
 import java.util.Objects;
 
