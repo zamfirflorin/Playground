@@ -1,4 +1,4 @@
-package com.florin.dataStructures;
+package com.florin.HashTableImplementation;
 
 public class SimpleHashTable {
 	private Employee[] hashtable;

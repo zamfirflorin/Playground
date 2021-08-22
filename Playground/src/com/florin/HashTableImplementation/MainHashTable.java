@@ -1,6 +1,6 @@
-package com.florin.dataStructures;
+package com.florin.HashTableImplementation;
 
-public class Main {
+public class MainHashTable {
 
 	public static void main(String[] args) {
 		Employee janeJones = new Employee("Jane", "Jones", 123);
