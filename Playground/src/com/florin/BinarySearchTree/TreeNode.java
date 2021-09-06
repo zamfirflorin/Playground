@@ -5,6 +5,48 @@ public class TreeNode {
 	private TreeNode leftChild;
 	private TreeNode rightChild;
 	
+	public int min() {
+		if (leftChild == null) {
+			return data;
+		} else {
+			return leftChild.min();
+		}
+	}
+	
+	public int max() {
+		if (rightChild == null) {
+			return data;
+		} else {
+			return rightChild.max();
+		}
+	}
+	
+	public TreeNode get(int value) {
+		if (data == value) {
+			return this;
+		}
+		if (value < data) {
+			if (leftChild != null) {
+				return leftChild.get(value);
+			}
+		} else {
+			if (rightChild != null) {
+				return rightChild.get(value);
+			}
+		}
+		return null;
+	}
+	
+	public void traverseInOrder() {
+		if (leftChild != null) {
+			leftChild.traverseInOrder();
+		}
+		System.out.print(data + ", ");
+		if (rightChild != null) {
+			rightChild.traverseInOrder();
+		}
+	}
+		
 	public void insert(int value) {
 		if (value == data) {
 			System.out.println("Duplicate value");
@@ -50,6 +92,9 @@ public class TreeNode {
 	public void setRightChild(TreeNode rightChild) {
 		this.rightChild = rightChild;
 	}
-	
+	@Override
+    public String toString() {
+        return "Data = " + data;
+    }
 	
 }
