@@ -8,7 +8,8 @@ public class TreeNode {
 	public int min() {
 		if (leftChild == null) {
 			return data;
-		} else {
+		} 
+		else {
 			return leftChild.min();
 		}
 	}
@@ -20,7 +21,7 @@ public class TreeNode {
 			return rightChild.max();
 		}
 	}
-	
+		
 	public TreeNode get(int value) {
 		if (data == value) {
 			return this;
@@ -29,7 +30,8 @@ public class TreeNode {
 			if (leftChild != null) {
 				return leftChild.get(value);
 			}
-		} else {
+		} 
+		else {
 			if (rightChild != null) {
 				return rightChild.get(value);
 			}
@@ -44,6 +46,28 @@ public class TreeNode {
 		System.out.print(data + ", ");
 		if (rightChild != null) {
 			rightChild.traverseInOrder();
+		}
+	}
+	
+	public void traversePostOrder() {
+		if (leftChild != null) {
+			leftChild.traversePostOrder();
+		}
+		if (rightChild != null) {
+			rightChild.traversePostOrder();
+		}
+		System.out.print(this  + ", ");
+		
+		
+	}
+	
+	public void traversePreOrder() {
+		System.out.print(this + ", ");
+		if (leftChild != null) {
+			leftChild.traversePreOrder();
+		}
+		if (rightChild != null) {
+			rightChild.traversePreOrder();
 		}
 	}
 		
@@ -94,7 +118,7 @@ public class TreeNode {
 	}
 	@Override
     public String toString() {
-        return "Data = " + data;
+        return "" + data;
     }
 	
 }
