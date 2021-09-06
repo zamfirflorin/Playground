@@ -8,7 +8,8 @@ public class TreeNode {
 	public int min() {
 		if (leftChild == null) {
 			return data;
-		} else {
+		} 
+		else {
 			return leftChild.min();
 		}
 	}
@@ -20,7 +21,7 @@ public class TreeNode {
 			return rightChild.max();
 		}
 	}
-	
+		
 	public TreeNode get(int value) {
 		if (data == value) {
 			return this;
@@ -29,7 +30,8 @@ public class TreeNode {
 			if (leftChild != null) {
 				return leftChild.get(value);
 			}
-		} else {
+		} 
+		else {
 			if (rightChild != null) {
 				return rightChild.get(value);
 			}
