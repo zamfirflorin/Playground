@@ -48,6 +48,28 @@ public class TreeNode {
 			rightChild.traverseInOrder();
 		}
 	}
+	
+	public void traversePostOrder() {
+		if (leftChild != null) {
+			leftChild.traversePostOrder();
+		}
+		if (rightChild != null) {
+			rightChild.traversePostOrder();
+		}
+		System.out.print(this  + ", ");
+		
+		
+	}
+	
+	public void traversePreOrder() {
+		System.out.print(this + ", ");
+		if (leftChild != null) {
+			leftChild.traversePreOrder();
+		}
+		if (rightChild != null) {
+			rightChild.traversePreOrder();
+		}
+	}
 		
 	public void insert(int value) {
 		if (value == data) {
@@ -96,7 +118,7 @@ public class TreeNode {
 	}
 	@Override
     public String toString() {
-        return "Data = " + data;
+        return "" + data;
     }
 	
 }

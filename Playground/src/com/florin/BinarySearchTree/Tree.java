@@ -43,6 +43,16 @@ public class Tree {
 		}
 		return subTreeRoot;
 	}
+	public void traversePreOrder() {
+		if (root != null) {
+			root.traversePreOrder();
+		}
+	}
+	public void traversePostOrder() {
+		if (root != null) {
+			root.traversePostOrder();
+		}
+	}
 
 	public int min() {
 		if (root == null) {
