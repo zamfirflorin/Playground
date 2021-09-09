@@ -1,11 +1,11 @@
 package com.florin.Heap;
 
-public class Heap {
+public class MaxHeap {
 	
 	private int[] heap;
 	private int size;
 	
-	public Heap(int capacity) {
+	public MaxHeap(int capacity) {
 		heap = new int[capacity];
 	}
 	
