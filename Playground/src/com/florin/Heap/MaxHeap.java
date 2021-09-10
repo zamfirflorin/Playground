@@ -43,8 +43,6 @@ public class MaxHeap {
 		return 2 * indexParent + (left ? 1 : 2);
 	}
 	
-	public int delete(int index) {
-		
-	}
+
 	
 }
