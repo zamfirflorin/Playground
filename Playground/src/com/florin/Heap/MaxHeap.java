@@ -35,4 +35,14 @@ public class MaxHeap {
 		heap[index] = newValue;
 	}
 	
+	public boolean isEmpty() {
+		return size == 0;
+	}
+	
+	public int getChild(int indexParent, boolean left) {
+		return 2 * indexParent + (left ? 1 : 2);
+	}
+	
+
+	
 }
