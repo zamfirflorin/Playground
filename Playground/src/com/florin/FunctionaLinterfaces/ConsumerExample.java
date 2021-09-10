@@ -35,6 +35,7 @@ public class ConsumerExample {
 		//filtering operation
 		students.forEach((student) -> {
 			if (student.getGradeLevel() >= 3) {
+				//sa il intreb pe calin ce face accept aici
 				consumer.andThen(consumer2).accept(student);
 			}
 		});
