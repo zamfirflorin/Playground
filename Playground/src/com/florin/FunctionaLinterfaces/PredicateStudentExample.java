@@ -6,7 +6,7 @@ import java.util.function.Predicate;
 public class PredicateStudentExample {
 
 	static Predicate<Student> gradeBiggerThanTwo = student ->  student.getGradeLevel() > 2;
-	static Predicate<Student> gpaGreater3 = student ->  student.getGpa() > 3;
+	static Predicate<Student> gpaGreater3 = student ->  student.getGpa() >= 3.5;
 	
 	public static void main(String[] args) {
 		filterStudentByGradeLevel();
