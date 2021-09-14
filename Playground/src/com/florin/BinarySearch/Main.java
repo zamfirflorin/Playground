@@ -11,11 +11,10 @@ public class Main {
 		System.out.println();
 		System.out.println(recursiveBinarySearch(intArr, 20));
 		System.out.println(recursiveBinarySearch(intArr, 1));
-		
 
 	}
 	
-	//O (log(N)) time
+	//O (log(n)) time
 	public static int iterativeBinarySearch(int[] arr, int value) {
 		int start = 0; 
 		int end = arr.length;
