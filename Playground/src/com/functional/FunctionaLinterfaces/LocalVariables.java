@@ -1,4 +1,4 @@
-package com.florin.FunctionaLinterfaces;
+package com.functional.FunctionaLinterfaces;
 
 public class LocalVariables {
 

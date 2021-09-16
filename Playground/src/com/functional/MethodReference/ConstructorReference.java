@@ -1,10 +1,10 @@
-package com.florin.MethodReference;
+package com.functional.MethodReference;
 
 import java.util.function.BiFunction;
 import java.util.function.Function;
 import java.util.function.Supplier;
 
-import com.florin.FunctionaLinterfaces.Student;
+import com.functional.FunctionaLinterfaces.Student;
 
 public class ConstructorReference {
 

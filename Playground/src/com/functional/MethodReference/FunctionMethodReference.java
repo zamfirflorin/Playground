@@ -1,4 +1,4 @@
-package com.florin.MethodReference;
+package com.functional.MethodReference;
 
 import java.util.function.Function;
 

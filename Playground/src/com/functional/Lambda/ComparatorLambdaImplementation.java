@@ -1,4 +1,4 @@
-package com.florin.Lambda;
+package com.functional.Lambda;
 
 import java.util.Comparator;
 

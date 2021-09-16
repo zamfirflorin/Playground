@@ -1,4 +1,4 @@
-package com.florin.Lambda;
+package com.functional.Lambda;
 
 public class Main {
 
