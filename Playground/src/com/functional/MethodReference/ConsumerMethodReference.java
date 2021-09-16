@@ -1,10 +1,10 @@
-package com.florin.MethodReference;
+package com.functional.MethodReference;
 
 import java.util.Arrays;
 import java.util.function.Consumer;
 
-import com.florin.FunctionaLinterfaces.Student;
-import com.florin.FunctionaLinterfaces.StudentDataBase;
+import com.functional.FunctionaLinterfaces.Student;
+import com.functional.FunctionaLinterfaces.StudentDataBase;
 
 public class ConsumerMethodReference {
 

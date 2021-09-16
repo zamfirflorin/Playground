@@ -1,4 +1,4 @@
-package com.florin.FunctionaLinterfaces;
+package com.functional.FunctionaLinterfaces;
 
 import java.util.Comparator;
 import java.util.function.BinaryOperator;
