@@ -9,8 +9,6 @@ public class StreamsLimitSkipExample {
 	public static void main(String[] args) {
 		
 		List<Integer> integerList = Arrays.asList(6, 7, 8, 11, 9, 10);
-
-		
 		Optional<Integer> optional = limit(integerList, 5);
 		
 		if (optional.isPresent()) {
