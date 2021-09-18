@@ -54,6 +54,7 @@ public class StreamReduceExample {
 
 	}
 
+
 	public static Optional<Integer> performMultiplicationWithoutIdentity(List<Integer> integerList) {
 		return integerList.stream()
 		//1
