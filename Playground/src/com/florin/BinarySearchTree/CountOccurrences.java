@@ -1,4 +1,4 @@
-package com.florin.BinarySearch;
+package com.florin.BinarySearchTree;
 
 	public class CountOccurrences {
 		 

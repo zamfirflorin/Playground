@@ -13,7 +13,7 @@ public class MainHashTable {
 		ht.put("Jones", janeJones);
 		ht.put("Doe", johnDoe);
 		ht.put("Wilson", mikeWilson);
-		ht.put("Smith", marySmith);
+		ht.put("Smithsonian", marySmith);
 		
 		ht.printHashTable();
 		
