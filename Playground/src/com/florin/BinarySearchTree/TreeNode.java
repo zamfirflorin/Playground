@@ -8,7 +8,7 @@ public class TreeNode {
 	public int min() {
 		if (leftChild == null) {
 			return data;
-		} 
+		}
 		else {
 			return leftChild.min();
 		}
@@ -30,7 +30,7 @@ public class TreeNode {
 			if (leftChild != null) {
 				return leftChild.get(value);
 			}
-		} 
+		}
 		else {
 			if (rightChild != null) {
 				return rightChild.get(value);
