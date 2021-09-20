@@ -21,7 +21,7 @@ public class QuickSort {
 		
 		int pivotIndex = partition(input, start, end);
 		quickSort(input, start, pivotIndex);
-		quickSort(input, pivotIndex + 1, end);
+		quickSort(input, pivotIndex + 1,  end);
 	}
 
 	private static int partition(int[] input, int start, int end) {
