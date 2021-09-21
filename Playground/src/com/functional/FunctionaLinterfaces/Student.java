@@ -32,6 +32,7 @@ public class Student {
 	public Student() {
     	
     }
+	
     public Student(String name) {
     	this.name = name;
     }
@@ -76,8 +77,6 @@ public class Student {
     public void printListOfActivities() {
     	System.out.println(activities);
     }
-
-
 
     public List<String> getActivities() {
         return activities;
