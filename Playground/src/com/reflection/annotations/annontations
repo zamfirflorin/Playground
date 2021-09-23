@@ -1,0 +1,14 @@
+putem avea 
+
+marker annotations - fara niciun membru precum : @Override
+
+
+Single-valued annotations - with single member @SuppressWarning("Uncheked")
+
+Multi Valued annotations - cu mai multi membrii
+
+
+standard annotations - general purpose (override, supress warining, deprecated, funtional interfaces) - java.lang
+						and meta annotations (meta data for the annotations) - define the nature of the annotation (java.lang.annotation)
+						(documented, inherited, target, retention)
+Custom annotation
