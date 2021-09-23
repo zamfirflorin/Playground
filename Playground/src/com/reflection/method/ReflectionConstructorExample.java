@@ -32,6 +32,9 @@ public class ReflectionConstructorExample {
 		Entity entFromPrivateConstr = (Entity) privateDeclaredConstructor.newInstance();
 
 		System.out.println(entFromPrivateConstr.getType() + " " + entFromPrivateConstr.getVal());
+		
+		
+		
 
 	}
 
