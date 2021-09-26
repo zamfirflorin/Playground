@@ -12,3 +12,11 @@ standard annotations - general purpose (override, supress warining, deprecated, 
 						and meta annotations (meta data for the annotations) - define the nature of the annotation (java.lang.annotation)
 						(documented, inherited, target, retention)
 Custom annotation
+
+
+Meta annotations - annotations about annotations :
+			sunt 4 adnotari: @Documented
+							@Inherited
+							@Target
+							@Retention
+							
