@@ -3,6 +3,7 @@ package com.florin.HashTableImplementation;
 public class MainHashTable {
 
 	public static void main(String[] args) {
+		
 		Employee janeJones = new Employee("Jane", "Jones", 123);
 		Employee johnDoe = new Employee("John", "Doe", 123);
 		Employee marySmith = new Employee("Mary", "Smith", 123);
@@ -16,8 +17,8 @@ public class MainHashTable {
 		ht.put("Smithsonian", marySmith);
 		
 		ht.printHashTable();
-		
 		System.out.println(ht.get("Wilson"));
+		
 	}
 
 }
