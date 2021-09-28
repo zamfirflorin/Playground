@@ -15,10 +15,11 @@ public class MainHashTable {
 		ht.put("Doe", johnDoe);
 		ht.put("Wilson", mikeWilson);
 		ht.put("Smithsonian", marySmith);
+		ht.put("BillEnd", billEnd);
 		
 		ht.printHashTable();
 		System.out.println(ht.get("Wilson"));
-		
+
 	}
 
 }
