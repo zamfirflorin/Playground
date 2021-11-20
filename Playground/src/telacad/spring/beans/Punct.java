@@ -9,7 +9,7 @@ public class Punct {
 	
 	}
 	
-	public void showXY() {
+	private void showXY() {
 		System.out.println("Coordonate : " + x + " " + y);
 	}
 
