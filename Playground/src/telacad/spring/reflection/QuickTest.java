@@ -1,23 +1,31 @@
 package telacad.spring.reflection;
 
-import java.sql.Timestamp;
 import java.util.ArrayList;
-import java.util.Date;
+import java.util.HashSet;
+import java.util.Set;
 
 public class QuickTest {
 
 	public static void main(String[] args) {
 		
-		int[] arr = {0, 1, 2, 3};
 		
-
-
-		int[][] matrix = {{1, 0, 0, 1, 0}, {1, 0, 1, 0, 0},{0, 0, 1, 0, 1},{1, 0, 1, 0, 1},{1, 0, 1, 1, 0}};
-		ArrayList<Integer> result = riverSizes(matrix);
-		for (int i : result) {
-			System.out.print(i + " ");
-		}
+		System.out.println(isIsogram("moOse"));
+		
 	}
+	
+    public static boolean  isIsogram(String str) {
+        str = str.toLowerCase();
+        Set<Character> set = new HashSet<>();
+      
+      for (int i = 0; i < str.length(); i++) {
+        char ch = str.charAt(i);
+        if (!set.add(ch)) {
+          return false;
+        }
+      }
+      return true;
+    } 
+	
 	
 	public static ArrayList<Integer> riverSizes(int[][] matrix) {
 		int length = matrix.length; 
